@@ -1,5 +1,5 @@
 import test from 'ava';
-import m from './';
+import m from './index';
 
 test.cb('linear', t => {
 	let lastR = 0;
@@ -75,11 +75,10 @@ test.cb('two iterations', t => {
 	m('blue', 'red', {
 		iterations: 2
 	}, (color, delta, iteration, done) => {
-		// console.log(color);
 		callCount++;
 
 		if (done) {
-			t.deepEqual(color, [0, 0, 255]);
+			t.deepEqual(color, [255, 0, 0]);
 			t.true(callCount <= 120 && callCount > 60, 'maximum call count is 120');
 			t.end();
 		}

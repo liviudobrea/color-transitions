@@ -1,6 +1,6 @@
 {
   "name": "color-transitions",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Smooth color transitions",
   "license": "MIT",
   "repository": "stevemao/color-transitions",
@@ -9,11 +9,16 @@
     "email": "maochenyan@gmail.com",
     "url": "github.com/stevemao"
   },
+  "maintainers": {
+    "name": "Liviu Dobrea",
+    "email": "dobrealiviuc@gmail.com",
+    "url": "github.com/liviudobrea"
+  },
   "engines": {
     "node": ">=6"
   },
   "scripts": {
-    "test": "xo && nyc ava"
+    "test": "nyc ava"
   },
   "files": [
     "index.js"
@@ -25,14 +30,14 @@
     "animations"
   ],
   "dependencies": {
-    "color": "^0.11.3",
+    "color": "^3.0.0",
     "eases": "^1.0.8"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
-    "coveralls": "^2.11.12",
-    "nyc": "^8.1.0",
-    "xo": "^0.16.0"
+    "ava": "^0.25.0",
+    "coveralls": "^3.0.0",
+    "nyc": "^11.4.1",
+    "xo": "^0.18.2"
   },
   "xo": {
     "esnext": true
