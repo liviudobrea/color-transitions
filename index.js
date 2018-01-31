@@ -1,6 +1,6 @@
 'use strict';
-const Color = require('color');
-const eases = require('eases');
+const Color = require('./node_modules/color');
+const eases = require('./node_modules/eases');
 
 
 module.exports = (startColor, endColor, opts, cb) => {
