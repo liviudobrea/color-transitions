@@ -30,11 +30,11 @@
     "animations"
   ],
   "dependencies": {
-    "color": "^3.0.0"
-  },
-  "peerDependencies": {
     "color": "^3.0.0",
     "eases": "^1.0.8"
+  },
+  "peerDependencies": {
+    "color": "^3.0.0"
   },
   "devDependencies": {
     "ava": "^0.25.0",
