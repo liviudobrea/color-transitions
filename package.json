@@ -30,7 +30,7 @@
     "animations"
   ],
   "dependencies": {
-    "color": "^3.0.0",
+    "color": "^3.0.0"
   },
   "peerDependencies": {
     "color": "^3.0.0",
